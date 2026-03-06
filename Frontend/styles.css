@@ -78,7 +78,7 @@ textarea {
 .button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #236fd3;
     color: white;
     border: none;
     border-radius: 6px;
@@ -89,5 +89,22 @@ textarea {
 }
 
 .button:hover {
-    background-color: #45a049;
+    background-color: #0bc769;
+}
+
+.message {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: none;
+}
+
+.message.success {
+    background-color: #5dc762;
+    display: block;
+}
+.message.danger {
+    background-color: rgba(243, 107, 107, 0.521);
+    display: block;
 }
